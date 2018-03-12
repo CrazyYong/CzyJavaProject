@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a981eb41-89be-4462-b049-ea82239891fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Enum/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Enum/EnumTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Enum/TrafficaLight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Reflect/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Reflect/PersonInvoke.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Reflect/StudentInvoke.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaBase/JavaBase.iml" afterPath="$PROJECT_DIR$/JavaBase/JavaBase.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,49 +18,19 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/Color.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaBase/src/Reflect/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="622">
+              <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
               <folding>
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/EnumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#1481#1482#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrafficaLight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/TrafficaLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -92,6 +62,10 @@
         <option value="$PROJECT_DIR$/JavaBase/src/Enum/Color2.java" />
         <option value="$PROJECT_DIR$/JavaBase/src/Enum/Color.java" />
         <option value="$PROJECT_DIR$/JavaBase/src/Enum/EnumTest.java" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Reflect/PersonInvoke.java" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Reflect/StudentInvoke.java" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Reflect/Animal.java" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Reflect/Person.java" />
       </list>
     </option>
   </component>
@@ -102,10 +76,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="27" />
-    <option name="width" value="1742" />
-    <option name="height" value="936" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,8 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,18 +141,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Enum" />
+              <option name="myItemId" value="Reflect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CzyJavaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CzyJavaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,25 +187,135 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumTest">
-    <configuration default="false" name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Person.testField">
+    <configuration default="false" name="Person.testMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Enum.*" />
+          <option name="PATTERN" value="Reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Enum.EnumTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="JavaBase" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="Reflect" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.Person" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaBase" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentInvoke.testGetSuperClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Reflect" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.StudentInvoke" />
+      <option name="METHOD_NAME" value="testGetSuperClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentInvoke.testInvoke2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Reflect" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.StudentInvoke" />
+      <option name="METHOD_NAME" value="testInvoke2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Animal.testField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Reflect" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.Animal" />
+      <option name="METHOD_NAME" value="testField" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Person.testField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Reflect" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.Person" />
+      <option name="METHOD_NAME" value="testField" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -452,6 +555,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -580,6 +684,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -595,12 +705,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.EnumTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Person.testMethod" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StudentInvoke.testGetSuperClass" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StudentInvoke.testInvoke2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Animal.testField" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Person.testField" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.EnumTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Person.testField" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Animal.testField" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StudentInvoke.testInvoke2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StudentInvoke.testGetSuperClass" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Person.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -615,32 +733,80 @@
       <option name="presentableId" value="Default" />
       <updated>1501406137962</updated>
       <workItem from="1501406140351" duration="110000" />
-      <workItem from="1520563188202" duration="11220000" />
+      <workItem from="1520563188202" duration="12516000" />
+      <workItem from="1520836772680" duration="10172000" />
     </task>
+    <task id="LOCAL-00001" summary="枚举">
+      <created>1520583076275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520583076275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="枚举">
+      <created>1520583100985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520583100985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Animal_testField - 2018.03.12 at 17h 07m 28s.xml">
+      <configuration name="Animal.testField" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Animal_testField - 2018.03.12 at 17h 07m 37s.xml">
+      <configuration name="Animal.testField" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Animal_testField - 2018.03.12 at 17h 08m 02s.xml">
+      <configuration name="Animal.testField" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Animal_testField - 2018.03.12 at 17h 09m 03s.xml">
+      <configuration name="Animal.testField" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Person_testField - 2018.03.12 at 17h 10m 14s.xml">
+      <configuration name="Person.testField" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Person_testMethod - 2018.03.12 at 16h 17m 45s.xml">
+      <configuration name="Person.testMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentInvoke_testGetSuperClass - 2018.03.12 at 16h 45m 00s.xml">
+      <configuration name="StudentInvoke.testGetSuperClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentInvoke_testInvoke2 - 2018.03.12 at 17h 02m 14s.xml">
+      <configuration name="StudentInvoke.testInvoke2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentInvoke_testInvoke2 - 2018.03.12 at 17h 03m 15s.xml">
+      <configuration name="StudentInvoke.testInvoke2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentInvoke_testInvoke2 - 2018.03.12 at 17h 03m 30s.xml">
+      <configuration name="StudentInvoke.testInvoke2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11330000" />
+    <option name="totallyTimeSpent" value="22798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="27" width="1742" height="936" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16230677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,6 +828,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="枚举" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -671,11 +841,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/enum/enumTest">
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,29 +868,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/Color2.java">
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="665">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/enum/enumTest" />
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/TrafficaLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/Color2.java" />
     <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,21 +910,69 @@
         <state relative-caret-position="259">
           <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding>
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="false" />
+            <element signature="e#2063#2064#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBase/src/Enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="114">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Reflect/PersonInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Reflect/StudentInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Reflect/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
