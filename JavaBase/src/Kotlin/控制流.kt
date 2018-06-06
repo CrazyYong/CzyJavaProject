@@ -31,8 +31,6 @@ fun test1(){
 }
 
 
-
-
 fun tesWhe(x:Int){
     when(x){
         1-> print("x==1")
@@ -67,3 +65,5 @@ fun hasPrefix(x: Any) = when(x) {
     is Int-> print("is Int")
     else -> false
 }
+
+
