@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a981eb41-89be-4462-b049-ea82239891fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/forTest.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/classTest.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/派生类初始化顺序.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/覆盖规则.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/调用超类实现.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/返回和跳转.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/属性和字段/属性和字段.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/接口/接口.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/抽象类.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaBase/src/Kotlin/控制流.kt" afterPath="$PROJECT_DIR$/JavaBase/src/Kotlin/控制流.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +38,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="覆盖规则.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="覆盖规则.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/覆盖规则.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="抽象类.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/抽象类.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="属性和字段.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/属性和字段/属性和字段.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="接口.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/接口/接口.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -105,6 +131,9 @@
         <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/派生类初始化顺序.kt" />
         <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/调用超类实现.kt" />
         <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/覆盖规则.kt" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/抽象类.kt" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/属性和字段/属性和字段.kt" />
+        <option value="$PROJECT_DIR$/JavaBase/src/Kotlin/接口/接口.kt" />
       </list>
     </option>
   </component>
@@ -115,9 +144,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="809" />
-    <option name="y" value="77" />
-    <option name="width" value="1367" />
+    <option name="x" value="367" />
+    <option name="y" value="43" />
+    <option name="width" value="1473" />
     <option name="height" value="883" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -225,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="类与继承" />
+              <option name="myItemId" value="属性和字段" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,7 +775,7 @@
       <workItem from="1527814501375" duration="555000" />
       <workItem from="1527821256763" duration="8470000" />
       <workItem from="1528075892485" duration="11842000" />
-      <workItem from="1528162465753" duration="39282000" />
+      <workItem from="1528162465753" duration="59323000" />
     </task>
     <task id="LOCAL-00001" summary="枚举">
       <created>1520583076275</created>
@@ -804,7 +833,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528162604531</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Kotlin">
+      <created>1528280982042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528280982042</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -840,10 +876,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102304000" />
+    <option name="totallyTimeSpent" value="122345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="809" y="77" width="1367" height="883" extended-state="0" />
+    <frame x="367" y="43" width="1473" height="883" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -860,7 +896,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19051263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24769993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -918,9 +954,9 @@
     <MESSAGE value="反射" />
     <MESSAGE value="Cloneable()接口" />
     <MESSAGE value="设计模式" />
-    <MESSAGE value="Kotlin" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,30 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaBase/src/DesignMode/FactoryMode/RouJiaMo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBase/src/DesignMode/FactoryMode/SimpleRouJiaMoFactroy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/基本数据类型.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaBase/src/DesignMode/FactoryMode/RoujiaMoStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1267,14 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/派生类初始化顺序.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/调用超类实现.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1283,10 +1287,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/派生类初始化顺序.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/覆盖规则.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/类与继承/抽象类.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/属性和字段/属性和字段.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBase/src/Kotlin/接口/接口.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
           <folding />
         </state>
       </provider>
