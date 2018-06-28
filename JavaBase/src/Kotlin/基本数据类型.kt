@@ -12,9 +12,38 @@ val creditCardNumber = 1234_5678_9012_3456L
 val socialSecurityNumber = 999_99_9999L
 val hexBytes = 0xFF_EC_DE_5E
 val bytes = 0b11010010_01101001_10010100_10010010
+val aChar:Char='0'
+val bChar:Char='中'
+val cChar:Char='\u000f'
+val string:String="Hello"
+val fromChars:String=String(charArrayOf('H','e','l','l','o'))
 
 fun main(args: Array<String>) {
-    test5()
+//    test5()
+    print(aChar)
+    print(bChar)
+    print(cChar+"\n")
+
+    print(string== fromChars)
+    print(string === fromChars)
+
+    val arg1:Int=0
+    val arg2:Int=1
+    print("\n"+"$arg1+$arg2=${arg1+arg2}")
+
+    //Hello "Trump"
+   val sayHello:String="Hello\"Trump\""
+    print(sayHello)
+
+    val salary:Int=1000
+    print("\$salary")
+
+    val rawString:String="""
+    \t
+    \n
+    """
+    print(rawString)
+    print(rawString.length)
 }
 
 /**
