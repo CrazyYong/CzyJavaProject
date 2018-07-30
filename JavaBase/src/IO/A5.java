@@ -5,6 +5,7 @@ import java.io.*;
 /**
  * Created by czy on 2018/7/30.
  * 复制文件
+ * 嵌套缓冲流 BufferedInputStream BufferedOutputStream
  */
 public class A5 {
     public static void main(String[] args) throws IOException {
