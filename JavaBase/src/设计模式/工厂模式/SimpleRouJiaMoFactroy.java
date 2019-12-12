@@ -1,4 +1,4 @@
-package DesignMode.FactoryMode;
+package 设计模式.工厂模式;
 
 /**
  * Created by czy on 2018/4/4.
