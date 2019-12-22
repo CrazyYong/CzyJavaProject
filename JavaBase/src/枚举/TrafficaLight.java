@@ -1,4 +1,4 @@
-package Enum;
+package 枚举;
 
 /**
  * Created by cmx on 2018/3/9.
