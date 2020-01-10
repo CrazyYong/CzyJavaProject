@@ -1,5 +1,7 @@
 package 日期与时间;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -90,8 +92,8 @@ public class TimeDataTest {
         System.out.println(tz1.getID());
 
         /**
-            3:国家和语言Locale
-          Locale表示国家和语言，它有两个主要参数，一个是国家，另一个是语言，每个参数都有一个代码，不过国家并不是必须的。
+         3:国家和语言Locale
+         Locale表示国家和语言，它有两个主要参数，一个是国家，另一个是语言，每个参数都有一个代码，不过国家并不是必须的。
          比如说，中国的大陆代码是CN，台湾地区的代码是TW，美国的代码是US，中文语言的代码是zh，英文是en。
          Locale类中定义了一些静态变量，表示常见的Locale，比如：
          Locale.US：表示美国英语
@@ -146,18 +148,18 @@ public class TimeDataTest {
          */
 
         /*
-        * 获取日历信息与new Date()类似，新创建的Calendar对象表示的也是当前时间，
-        * 与Date不同的是，Calendar对象可以方便的获取年月日等日历信息。
-        * 内部，Calendar会将表示时刻的毫秒数，按照TimeZone和Locale对应的年历，
-        * */
+         * 获取日历信息与new Date()类似，新创建的Calendar对象表示的也是当前时间，
+         * 与Date不同的是，Calendar对象可以方便的获取年月日等日历信息。
+         * 内部，Calendar会将表示时刻的毫秒数，按照TimeZone和Locale对应的年历，
+         * */
         Calendar calendar = Calendar.getInstance();
-        System.out.println("year: "+calendar.get(Calendar.YEAR));
-        System.out.println("month: "+calendar.get(Calendar.MONTH));
-        System.out.println("day: "+calendar.get(Calendar.DAY_OF_MONTH));
-        System.out.println("hour: "+calendar.get(Calendar.HOUR_OF_DAY));
-        System.out.println("minute: "+calendar.get(Calendar.MINUTE));
-        System.out.println("second: "+calendar.get(Calendar.SECOND));
-        System.out.println("millisecond: " +calendar.get(Calendar.MILLISECOND));
+        System.out.println("year: " + calendar.get(Calendar.YEAR));
+        System.out.println("month: " + calendar.get(Calendar.MONTH));
+        System.out.println("day: " + calendar.get(Calendar.DAY_OF_MONTH));
+        System.out.println("hour: " + calendar.get(Calendar.HOUR_OF_DAY));
+        System.out.println("minute: " + calendar.get(Calendar.MINUTE));
+        System.out.println("second: " + calendar.get(Calendar.SECOND));
+        System.out.println("millisecond: " + calendar.get(Calendar.MILLISECOND));
         System.out.println("day_of_week: " + calendar.get(Calendar.DAY_OF_WEEK));
 
         /*
@@ -235,5 +237,80 @@ public class TimeDataTest {
             public boolean after(Object when)
             public boolean before(Object when)
         * */
+
+        /**
+         * DateFormat
+         * DateFormat类主要在Date和字符串表示之间进行相互转换，它有两个主要的方法：
+         * public final String format(Date date)
+         * public Date parse(String source)
+         * format将Date转换为字符串，parse将字符串转换为Date。
+         *
+         * DateFormat定义了四个静态变量，表示四种风格，SHORT、MEDIUM、LONG和FULL，还定义了一个静态变量DEFAULT，表示默认风格，值为MEDIUM，不同风格输出的信息详细程度不同。
+         */
+
+        /*
+        与Calendar类似，DateFormat也是抽象类，也用工厂模式创建对象，提供了多个静态方法创建DateFormat对象，有三类方法：
+         * public final static DateFormat getDateTimeInstance()
+         * public final static DateFormat getDateInstance()
+         * public final static DateFormat getTimeInstance()
+        * getDateTimeInstance既处理日期也处理时间，getDateInstance只处理日期，getTimeInstance只处理时间，
+        * */
+        Calendar calendars = Calendar.getInstance();
+        //2016-08-15 14:15:20
+        calendars.set(2016, 07, 15, 14, 15, 20);
+        System.out.println(DateFormat.getDateTimeInstance()
+                .format(calendars.getTime()));
+        System.out.println(DateFormat.getDateInstance()
+                .format(calendars.getTime()));
+        System.out.println(DateFormat.getTimeInstance()
+                .format(calendars.getTime()));
+
+        /*
+        * 每类工厂方法都有两个重载的方法，接受日期和时间风格以及Locale作为参数：
+            DateFormat getDateTimeInstance(int dateStyle, int timeStyle)
+            DateFormat getDateTimeInstance(int dateStyle, int timeStyle, Locale aLocale)
+        * */
+        Calendar calendars1 = Calendar.getInstance();
+        //2016-08-15 14:15:20
+        calendars1.set(2016, 07, 15, 14, 15, 20);
+        System.out.println("--"+DateFormat.getDateTimeInstance(
+                DateFormat.LONG, DateFormat.SHORT, Locale.CHINESE)
+                .format(calendars1.getTime()));
+
+        /*
+        * DateFormat的工厂方法里，我们没看到TimeZone参数，不过，DateFormat提供了一个setter方法，可以设置TimeZone：
+          public void setTimeZone(TimeZone zone)
+        * */
+
+        /**
+         * SimpleDateFormat
+         * SimpleDateFormat是DateFormat的子类，相比DateFormat，它的一个主要不同是，它可以接受一个自定义的模式(pattern)作为参数，这个模式规定了Date的字符串形式。先看个例子：
+         */
+        Calendar calendars3 = Calendar.getInstance();
+        //2016-08-15 14:15:20  输出为:2016年08月15日 星期一 14时15分20秒
+        calendars3.set(2016, 07, 15, 14, 15, 20);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 E HH时mm分ss秒");
+        System.out.println(sdf.format(calendars3.getTime()));
+
+        /*
+        * SimpleDateFormat有个构造方法，可以接受一个pattern作为参数，这里pattern是：yyyy年MM月dd日 E HH时mm分ss秒
+
+            pattern中的英文字符a-z和A-Z表示特殊含义，其他字符原样输出，这里：
+
+            yyyy：表示四位的年
+            MM：表示月，两位数表示
+            dd：表示日，两位数表示
+            HH：表示24小时制的小时数，两位数表示
+            mm：表示分钟，两位数表示
+            ss：表示秒，两位数表示
+            E：表示星期几
+            这里需要特意提醒一下，hh也表示小时数，但表示的是12小时制的小时数，而a表示的是上午还是下午
+        * */
+        Calendar calendars4 = Calendar.getInstance();
+//2016-08-15 14:15:20
+        calendars4.set(2016, 07, 15, 14, 15, 20);
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss a");
+        System.out.println(sdf1.format(calendars4.getTime()));
+
     }
 }
